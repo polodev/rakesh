@@ -1,0 +1,26 @@
+/* Style sheet for navbar */
+.navbar-alternative {
+    background-color: lightseagreen;
+    color: white;
+}
+.navbar-nav > li > a {
+    color : #fff;
+}
+.nav > li > a:hover, .nav > li > a:focus  {
+    background-color : teal;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    w
+    background-color : teal;
+}
+a.navbar-brand {
+    color : #fff;
+}
+
+.navbar-toggle i {
+    font-size : 25px;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    color : teal;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "rakesh_dada",
+  "authors": [
+    "Polo dev"
+  ],
+  "description": "basic dental website",
+  "main": "index.html",
+  "keywords": [
+    "dental"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
