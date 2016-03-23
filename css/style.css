@@ -1,4 +1,6 @@
-/* Style sheet for navbar */
+body {
+    margin-top: 70px;
+}
 .navbar-alternative {
     background-color: lightseagreen;
     color: white;
@@ -11,7 +13,6 @@
 }
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    w
     background-color : teal;
 }
 a.navbar-brand {
@@ -24,3 +25,19 @@ a.navbar-brand {
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     color : teal;
 }
+
+@media (max-width: 767px) {
+    a.navbar-brand {
+        margin-top: 7px;
+    }
+    .dropdown-menu > li > a {
+        color : #fff;
+        background-color: teal;
+    }
+
+}
+
+.carousel span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
+    color : #d1eeee;
+}
+
