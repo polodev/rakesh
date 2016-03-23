@@ -1,6 +1,9 @@
+/* global */
 body {
     margin-top: 70px;
 }
+
+/* Navbar */
 .navbar-alternative {
     background-color: lightseagreen;
     color: white;
@@ -37,7 +40,13 @@ a.navbar-brand {
 
 }
 
+/* Carousel */
+
 .carousel span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
     color : #d1eeee;
 }
 
+/* Services */
+.services {
+    margin: 25px 0;
+}
