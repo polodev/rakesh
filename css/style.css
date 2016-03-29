@@ -1,8 +1,19 @@
 /* global */
 body {
     margin-top: 70px;
+   font-family: 'Roboto', sans-serif; 
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abel', sans-serif;
+}
+
+.services, .doctors, .testimonials {
+    margin: 60px 0;
+}
+.footer {
+    margin-top : 60px  
+}
 /* Navbar */
 .navbar-alternative {
     background-color: lightseagreen;
@@ -46,7 +57,28 @@ a.navbar-brand {
     color : #d1eeee;
 }
 
-/* Services */
-.services {
-    margin: 25px 0;
+.footer {
+    background: #333;
+    color : #715654;
+    padding: 35px 0;
+}
+
+.footer p.social-icon {
+    font-size: 40px;
+}
+
+.footer h2 {
+    color : #fff;
+}
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li a{
+    color : #715654;
+}
+.footer ul li a:hover {
+    color: #f05b43;
 }
