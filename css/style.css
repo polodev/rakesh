@@ -51,6 +51,12 @@ a.navbar-brand {
 
 }
 
+/* Panel */
+.panel img {
+    margin: 25px 0;
+    padding: 10px;
+}
+
 /* Carousel */
 
 .carousel span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
